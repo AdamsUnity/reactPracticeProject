@@ -1,0 +1,71 @@
+.hero--section {
+  padding: 1.5rem;
+}
+@media screen and (min-width: 900px) {
+  .hero--section {
+    display: flex;
+    column-gap: 20px;
+  }
+  .web3--future {
+    display: flex;
+  }
+}
+.web3--future {
+  margin: 1.5rem 0;
+  gap: 50px;
+}
+.web3--future h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  flex: 1;
+}
+.web3--future div {
+  flex: 1;
+}
+.web3--future p {
+  color: hsl(236, 13%, 42%);
+  font-weight: 400;
+}
+.cta--button {
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  background-color: hsl(5, 85%, 63%);
+}
+.cta--button:hover {
+  background-color: hsl(240, 100%, 5%);
+}
+
+.hero--part2 {
+  background-color: hsl(240, 100%, 5%);
+  color: white;
+  padding: 30px 30px;
+  height: 100%;
+}
+
+.hero--part2 .news--head {
+  font-size: 25px;
+  padding-bottom: 10px;
+  color: hsl(35, 77%, 62%);
+}
+
+.hero--part2 .hero--title {
+  font-size: 12px;
+  color: white;
+  padding-top: 25px;
+  font-weight: 600;
+  border-top: 1px solid hsl(233, 8%, 79%);
+}
+.hero--part2 .hero--title:hover {
+  color: hsl(35, 77%, 62%);
+}
+.hero--part2 .hero--content {
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-size: 10px;
+  font-weight: 300;
+  color: white;
+  line-height: 2;
+}

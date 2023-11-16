@@ -1,0 +1,27 @@
+.nav--bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.nav--list {
+  display: none;
+  column-gap: 50px;
+  list-style: none;
+}
+@media screen and (min-width: 600px) {
+  .nav--list {
+    display: inline-flex;
+  }
+  .menu--toggler {
+    display: none;
+  }
+}
+.nav--list li a {
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+}
+.nav--list li a:hover {
+  color: hsl(5, 85%, 63%);
+}
